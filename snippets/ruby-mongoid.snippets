@@ -1,0 +1,4 @@
+snippet fix_mid
+	class Mongoid::Criteria
+		delegate :as_json, :to => :to_a${1}
+	end
